@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoachA-Pokeapi", "CoachA-Pokeapi.csproj", "{835F1CE2-9C7B-4C1B-A6AC-372D59AAD1D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{835F1CE2-9C7B-4C1B-A6AC-372D59AAD1D6}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{835F1CE2-9C7B-4C1B-A6AC-372D59AAD1D6}.Debug|iPhone.Build.0 = Debug|iPhone
+		{835F1CE2-9C7B-4C1B-A6AC-372D59AAD1D6}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{835F1CE2-9C7B-4C1B-A6AC-372D59AAD1D6}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{835F1CE2-9C7B-4C1B-A6AC-372D59AAD1D6}.Release|iPhone.ActiveCfg = Release|iPhone
+		{835F1CE2-9C7B-4C1B-A6AC-372D59AAD1D6}.Release|iPhone.Build.0 = Release|iPhone
+		{835F1CE2-9C7B-4C1B-A6AC-372D59AAD1D6}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{835F1CE2-9C7B-4C1B-A6AC-372D59AAD1D6}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
