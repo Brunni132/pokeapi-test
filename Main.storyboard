@@ -76,6 +76,17 @@
                                 <nil key="highlightedColor"/>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                             </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="761" translatesAutoresizingMaskIntoConstraints="NO" alwaysBounceVertical="YES">
+                                <rect key="frame" x="0.0" y="356" width="375" height="414"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="766" translatesAutoresizingMaskIntoConstraints="NO" image="Icon-Taupiqueur.png" fixedFrame="YES">
+                                        <rect key="frame" x="0.0" y="174" width="375" height="240"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint id="787" firstItem="761" firstAttribute="height" constant="414"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -92,6 +103,9 @@
                             <constraint id="677" firstItem="127" firstAttribute="top" secondItem="211" secondAttribute="bottom" constant="16"/>
                             <constraint id="678" firstItem="88" firstAttribute="trailing" secondItem="127" secondAttribute="trailing"/>
                             <constraint id="679" firstItem="127" firstAttribute="leading" secondItem="88" secondAttribute="leading"/>
+                            <constraint id="784" firstItem="761" firstAttribute="trailing" secondItem="88" secondAttribute="trailing"/>
+                            <constraint id="785" firstItem="761" firstAttribute="leading" secondItem="88" secondAttribute="leading"/>
+                            <constraint id="786" firstItem="761" firstAttribute="top" secondItem="127" secondAttribute="bottom" constant="24"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Welcome!" id="124"/>
@@ -212,7 +226,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="571" translatesAutoresizingMaskIntoConstraints="NO">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="571" translatesAutoresizingMaskIntoConstraints="NO" text="--">
                                 <rect key="frame" x="210" y="96" width="145" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -230,7 +244,7 @@
                                     <constraint id="738" firstItem="572" firstAttribute="width" constant="202" priority="455"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="579" translatesAutoresizingMaskIntoConstraints="NO">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="579" translatesAutoresizingMaskIntoConstraints="NO" text="--">
                                 <rect key="frame" x="210" y="135" width="145" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -241,7 +255,7 @@
                                     <constraint id="742" firstItem="579" firstAttribute="width" constant="120" relation="greaterThanOrEqual"/>
                                 </constraints>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="580" translatesAutoresizingMaskIntoConstraints="NO">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="580" translatesAutoresizingMaskIntoConstraints="NO" text="--">
                                 <rect key="frame" x="210" y="182" width="145" height="26"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -252,7 +266,7 @@
                                     <constraint id="744" firstItem="580" firstAttribute="width" constant="120" relation="greaterThanOrEqual"/>
                                 </constraints>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="wordWrap" minimumFontSize="10" id="611" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="0" baselineAdjustment="alignBaselines" preferredMaxLayoutWidth="335">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="wordWrap" minimumFontSize="10" id="611" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="0" baselineAdjustment="alignBaselines" preferredMaxLayoutWidth="335" text="Fetching data, please wait…">
                                 <rect key="frame" x="20" y="344" width="335" height="303"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>

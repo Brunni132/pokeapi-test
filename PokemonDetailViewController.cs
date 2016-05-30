@@ -23,7 +23,6 @@ namespace CoachAPokeapi
 			NavigationItem.Title = ViewedPokemon.BeautifiedName;
 			NameLabel.Text = ViewedPokemon.BeautifiedName;
 			PokemonImage.Layer.MagnificationFilter = "nearest";
-			DescriptionLabel.Text = "Fetching data, please wait…";
 
 			UpdateUiWithPokemon (ViewedPokemon.Url);
 		}
